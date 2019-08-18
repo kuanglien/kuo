@@ -22,5 +22,14 @@ Github   | 存放原始碼
 ## 程式碼片段
 
 ```python
-
+@app.route("/")
+def home():
+    temp = glob.glob("articles/*")
+    fill = []
+    for t in temp:
+        length = len(glob.glob(t + "/*.txt"))
+        category = t.replace("articles/", "")
+        f = (category, length)
+        fill.append(f)
+    return render_template("index.html", cat=fill)
 ```
