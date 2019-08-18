@@ -32,5 +32,5 @@ def home():
         fill.append(f)
     return render_template("index.html", cat=fill)
   
-if __main__ == '__main__':
+if __name__ == '__name__':
     app.run(debug=True, host="0.0.0.0", port="3000")
