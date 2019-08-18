@@ -18,6 +18,10 @@ Flask(python)    | 幫助我建立伺服器
 HTML/CSS  | 網頁表示和排版
 Heroku   | 託管網頁
 Github   | 存放原始碼
+reurl.cc | 縮短網址產生器
+bootstrap | Python 3 語法學習參考1
+bootstrap glyphicons | Python 3 語法學習參考2下載標籤小圖
+markdown | 用於github的標記式語言
 
 
 ## 程式碼片段
